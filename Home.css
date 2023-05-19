@@ -63,6 +63,10 @@
   margin: 13px auto 0;
 }
 
+.u-section-1 .u-repeater-1 {
+  grid-gap: 0px 0px;
+}
+
 .u-section-1 .u-text-2 {
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
@@ -81,6 +85,10 @@
   .u-section-1 .u-sheet-1 {
     min-height: 651px;
   }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: repeat(undefined, NaN%);
+  }
 }
 
 @media (max-width: 991px) {
@@ -90,6 +98,10 @@
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 100px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
   }
 }
 
